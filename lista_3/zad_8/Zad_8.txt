@@ -1,0 +1,6 @@
+Zad_8
+Zadanie polegało na uruchomieniu tzw. forkbomby, która zawarta jest w pliku skrypt.sh.
+W momencie gdy nie zmienimy limitu procesów które można uruchomić, taka bomba powoduje duże obciążenie systemu.
+Po użyciu polecenia 'ulimit -u' możemy zobserwować jaki jest aktualny limit.
+Podanie liczby po argumencie -u ustalamy nowy limit np. ulimit -u 20 ustawi limit procesów na 20.
+Po takim poleceniu uruchomienie skryptu z bombą nie powoduje zauważalnego obciążenia systemu ze względu na to, że limit nie pozwala na uruchomienie zbyt dużej liczby procesów.
