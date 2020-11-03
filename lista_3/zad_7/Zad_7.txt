@@ -1,0 +1,18 @@
+ZAD_7
+Uruchomione zostały 3 skrypty, każdy z nich wykonuje inkrementacje zmiennej w nieskończonej pętli
+Na początku liczba NICE wszystkich procesów wynosiła 0, a ich dostęp do zasobów to odpowiednio:
+- skrypt_1.sh - 31.9% CPU
+- skrypt_2.sh - 31.9% CPU
+- skrypt_3.sh - 31.9% CPU
+Sprawdzenie dostępu do zasobów, wartości priotytetu(kolumna PR) i liczby NICE(kolumna NI) odbyło się za pomocą polecenia top.
+
+renice 10 2905 - polecenie powoduje ustawienie liczby NICE jako 10 dla procesu o PID 2905 co powoduje obniżenie priorytetu dostępu do zasobów.
+
+Po wykonaniu powyższego polecenia, dostęp do zasobów to odpowiednio:
+- skrypt_1.sh - 47.2% CPU
+- skrypt_2.sh - 47.0% CPU
+- skrypt_3.sh - 5.3% CPU
+
+Możemy tylko zwiększać wartość liczby NICE, aby obniżyć tą wartość musimy to zrobić poprzez superużytkownika sudo. Obniżanie liczby NICE powoduje 
+zwiększenie priorytetu dostępu do zasobów.
+
