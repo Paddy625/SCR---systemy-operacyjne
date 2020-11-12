@@ -1,0 +1,3 @@
+W /proc znajdują się pliki i foldery odpowiadające uruchmoionym procesom.
+Poszczególne procesy posiadają swój folder o nazwie odpowiadającej PID.
+Informacje o procesie jak np. PID czy PPID znajdują się w pliku status.

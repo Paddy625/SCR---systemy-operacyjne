@@ -1,0 +1,10 @@
+Został napisany program w języku C, inkrementujący zmienną w nieskończonej pętli
+
+Pierwsza wersja programu wykonuje inkrementacje bez operacji opóźnienia,
+przez to obciąża znacznie procesor.
+
+Druga wersja programu działa podobnie ale między inkrementacjami program
+odczekuje chwilę, co powoduje, że obciążenie procesora jest znikome, ponieważ
+przez znaczną część działania programu znajduje się on w stanie uśpienia.
+
+Aby zmniejszyć czas odświerzania programu top należy podać argument -d [czas]

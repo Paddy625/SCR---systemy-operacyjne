@@ -1,0 +1,11 @@
+Informacje o procesie są zawarte w pliku status.
+Tablica funkcji sygnałów, znajduje się również w pliku status i jest zapisana
+w systemie szenastkowym.
+W momencie otworzenia progarmów w potoku, jesteśmy w stanie odczytać w jakiej
+kolejności programy te zostały otworzone. W tym celu dla każdego z procesów
+należy wejść w /proc/[PID]/fd, zobaczymy linki do strumieni danych, pierwszy
+otworzony proces będzie miał wejście [0] zlinkowane do terminala, a wyjście [1]
+do potoku, który kierowany jest z koleji na wejście procesu 2. Proces 3 odbiera
+dane z potoku, do którego dane przekazuje proces 2, a jego wyjście jest
+zlinkowane do terminalu. Cyfra [2] to wyjście błędów i jest ono domyślnie
+przypisane terminalu.

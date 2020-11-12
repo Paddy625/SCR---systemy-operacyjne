@@ -1,0 +1,48 @@
+Przechwycenie sygnału i zakończenie pracy programu:
+
+int main() - signal(SIGALRM, catch);
+
+  if (signal_ID == SIGALRM){
+    printf("\nzlapano SIGALARM, program zakonczy dzialanie\n");
+    exit(0);
+    }
+
+  
+Przechwycenie sygnału i wyświetlenie komunikatu:
+
+int main() - signal(SIGTERM, catch);
+
+  if (signal_ID == SIGTERM)
+    printf("\nzlapano SIGTERM\n");
+
+
+Ignorowanie sygnału:
+
+int main() - signal(SIGUSR2, SIG_IGN);
+
+
+Ignorowanie sygnału przez 10 iteracji:
+
+int ign_usr1 = 10; //zmienna globalna
+
+  if (signal_ID == SIGUSR1){
+    if(ign_usr1 >= 10 )
+      {
+	printf("\nzlapano SIGUSR1\n");
+	signal(SIGUSR1, SIG_IGN);
+	ign_usr1 = 0; 
+      }
+  }
+
+
+int main(void)
+{
+  while(1) 
+    {
+    ign_usr1++;
+    if(ign_usr1 >= 10)
+      signal(SIGUSR1, catch);
+    printf("\n %d", ign_usr1);
+    sleep(1);
+    }
+}
