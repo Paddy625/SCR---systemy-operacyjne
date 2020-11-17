@@ -1,0 +1,287 @@
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+access("/bin/bash", X_OK)               = 0
+access("/bin/bash", R_OK)               = 0
+access("/bin/bash", X_OK)               = 0
+access("/bin/bash", R_OK)               = 0
+open("/etc/bash.bashrc", O_RDONLY)      = 3
+open("/home/adam/.bashrc", O_RDONLY)    = 3
+open("/home/adam/.bash_history", O_RDONLY) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4425, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4430, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/usr/share/bash-completion/bash_completion", O_RDONLY) = 3
+open("/etc/init.d/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4432, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/etc/bash_completion.d/apport_completion", O_RDONLY) = 3
+open("/etc/bash_completion.d/desktop-file-validate", O_RDONLY) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/desktop-file-validate", X_OK) = 0
+access("/usr/bin/desktop-file-validate", R_OK) = 0
+access("/usr/bin/desktop-file-validate", X_OK) = 0
+access("/usr/bin/desktop-file-validate", R_OK) = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/share/locale/pl/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/pl/LC_MESSAGES/bash.mo", O_RDONLY) = 3
+open("/etc/bash_completion.d/dkms", O_RDONLY) = 3
+open("/etc/bash_completion.d/grub", O_RDONLY) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-set-default", X_OK) = 0
+access("/usr/sbin/grub-set-default", R_OK) = 0
+access("/usr/sbin/grub-set-default", X_OK) = 0
+access("/usr/sbin/grub-set-default", R_OK) = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-reboot", X_OK)   = 0
+access("/usr/sbin/grub-reboot", R_OK)   = 0
+access("/usr/sbin/grub-reboot", X_OK)   = 0
+access("/usr/sbin/grub-reboot", R_OK)   = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-editenv", X_OK)   = 0
+access("/usr/bin/grub-editenv", R_OK)   = 0
+access("/usr/bin/grub-editenv", X_OK)   = 0
+access("/usr/bin/grub-editenv", R_OK)   = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-mkconfig", X_OK) = 0
+access("/usr/sbin/grub-mkconfig", R_OK) = 0
+access("/usr/sbin/grub-mkconfig", X_OK) = 0
+access("/usr/sbin/grub-mkconfig", R_OK) = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-bios-setup", X_OK) = 0
+access("/usr/sbin/grub-bios-setup", R_OK) = 0
+access("/usr/sbin/grub-bios-setup", X_OK) = 0
+access("/usr/sbin/grub-bios-setup", R_OK) = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-install", X_OK)  = 0
+access("/usr/sbin/grub-install", R_OK)  = 0
+access("/usr/sbin/grub-install", X_OK)  = 0
+access("/usr/sbin/grub-install", R_OK)  = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-mkfont", X_OK)    = 0
+access("/usr/bin/grub-mkfont", R_OK)    = 0
+access("/usr/bin/grub-mkfont", X_OK)    = 0
+access("/usr/bin/grub-mkfont", R_OK)    = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-mkrescue", X_OK)  = 0
+access("/usr/bin/grub-mkrescue", R_OK)  = 0
+access("/usr/bin/grub-mkrescue", X_OK)  = 0
+access("/usr/bin/grub-mkrescue", R_OK)  = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-mkimage", X_OK)   = 0
+access("/usr/bin/grub-mkimage", R_OK)   = 0
+access("/usr/bin/grub-mkimage", X_OK)   = 0
+access("/usr/bin/grub-mkimage", R_OK)   = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-mkpasswd-pbkdf2", X_OK) = 0
+access("/usr/bin/grub-mkpasswd-pbkdf2", R_OK) = 0
+access("/usr/bin/grub-mkpasswd-pbkdf2", X_OK) = 0
+access("/usr/bin/grub-mkpasswd-pbkdf2", R_OK) = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/sbin/grub-probe", X_OK)    = 0
+access("/usr/sbin/grub-probe", R_OK)    = 0
+access("/usr/sbin/grub-probe", X_OK)    = 0
+access("/usr/sbin/grub-probe", R_OK)    = 0
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/grub-script-check", X_OK) = 0
+access("/usr/bin/grub-script-check", R_OK) = 0
+access("/usr/bin/grub-script-check", X_OK) = 0
+access("/usr/bin/grub-script-check", R_OK) = 0
+open("/etc/bash_completion.d/insserv", O_RDONLY) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/etc/bash_completion.d/libreoffice.sh", O_RDONLY) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/home/adam/.bash_history", O_RDONLY) = 3
+open("/home/adam/.bash_history", O_RDONLY) = 3
+access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+access("/lib/terminfo/x/xterm-256color", R_OK) = 0
+open("/lib/terminfo/x/xterm-256color", O_RDONLY) = 3
+open("/etc/inputrc", O_RDONLY)          = 3
+access("/bin/ls", X_OK)                 = 0
+access("/bin/ls", R_OK)                 = 0
+access("/bin/ls", X_OK)                 = 0
+access("/bin/ls", R_OK)                 = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4477, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+access("/usr/bin/strace", X_OK)         = 0
+access("/usr/bin/strace", R_OK)         = 0
+access("/usr/bin/strace", X_OK)         = 0
+access("/usr/bin/strace", R_OK)         = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4480, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4554, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/tmp/sh-thd-876128867", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0600) = 3
+open("/tmp/sh-thd-876128867", O_RDONLY) = 4
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4555, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/usr/share/bash-completion/completions/gcc", O_RDONLY) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4556, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4559, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4560, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4561, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/tmp/sh-thd-96049178", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0600) = 3
+open("/tmp/sh-thd-96049178", O_RDONLY)  = 4
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+access("/usr/bin/gcc", X_OK)            = 0
+access("/usr/bin/gcc", R_OK)            = 0
+access("/usr/bin/gcc", X_OK)            = 0
+access("/usr/bin/gcc", R_OK)            = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4562, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/usr/share/bash-completion/completions/strace", O_RDONLY) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4568, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4570, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4571, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4573, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4574, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4575, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/tmp/sh-thd-821839691", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0600) = 3
+open("/tmp/sh-thd-821839691", O_RDONLY) = 4
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4576, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4577, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+access("/bin/mv", X_OK)                 = 0
+access("/bin/mv", R_OK)                 = 0
+access("/bin/mv", X_OK)                 = 0
+access("/bin/mv", R_OK)                 = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4578, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4579, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/usr/share/locale/pl/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/pl/LC_MESSAGES/libc.mo", O_RDONLY) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=4580, si_uid=1000, si_status=SIGSEGV, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4761, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4762, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=4763, si_uid=1000, si_status=SIGSEGV, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4793, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4901, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4902, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/tmp/sh-thd-1484773046", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0600) = 3
+open("/tmp/sh-thd-1484773046", O_RDONLY) = 4
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4903, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4904, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4908, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+access("/usr/bin/emacs", X_OK)          = 0
+access("/usr/bin/emacs", R_OK)          = 0
+access("/usr/bin/emacs", X_OK)          = 0
+access("/usr/bin/emacs", R_OK)          = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4912, si_uid=1000, si_status=0, si_utime=409, si_stime=45} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4940, si_uid=1000, si_status=0, si_utime=108, si_stime=18} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=4948, si_uid=1000, si_status=SIGSEGV, si_utime=0, si_stime=0} ---
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5116, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+open("/tmp/sh-thd-2616945224", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0600) = 3
+open("/tmp/sh-thd-2616945224", O_RDONLY) = 4
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5118, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5122, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5124, si_uid=1000, si_status=0, si_utime=0, si_stime=1} ---
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5136, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5140, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5145, si_uid=1000, si_status=0, si_utime=1, si_stime=1} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5151, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5155, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5156, si_uid=1000, si_status=0, si_utime=29, si_stime=8} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5161, si_uid=1000, si_status=0, si_utime=39, si_stime=3} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5165, si_uid=1000, si_status=0, si_utime=0, si_stime=1} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5184, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5189, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5215, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+access("/usr/bin/pico", X_OK)           = 0
+access("/usr/bin/pico", R_OK)           = 0
+access("/usr/bin/pico", X_OK)           = 0
+access("/usr/bin/pico", R_OK)           = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5216, si_uid=1000, si_status=0, si_utime=2, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5219, si_uid=1000, si_status=1, si_utime=2, si_stime=0} ---
+open("/home/adam/.bash_history", O_WRONLY|O_APPEND) = 3
+open("/home/adam/.bash_history", O_RDONLY) = 3
++++ exited with 1 +++
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4422, si_uid=1000, si_status=1, si_utime=2, si_stime=7} ---
+stat("/home/adam/.bash_history", {st_mode=S_IFREG|0600, st_size=22296, ...}) = 0
+open("/home/adam/.bash_history", O_WRONLY|O_APPEND) = 3
+open("/home/adam/.bash_history", O_RDONLY) = 3
++++ exited with 1 +++

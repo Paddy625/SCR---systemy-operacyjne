@@ -1,0 +1,8 @@
+Zadanie polegało na zapoznaniu się z poleceniem strace i jego najważniejszymi opcjami.
+Program strace służy do monitorowania wywołań systemowych i sygnałów z których korzystają
+inne programy i procesy.
+- -e funkcja dzięki której możemy śledzić tylko wybrane procesy.Jak np. strace -e trace=open ls - takie wywołanie pozwoli na wyświetlenie jakie pliki zostały otwarte przez proces
+- -o pozwala na zapis odpowiedzi strace do pliku np. strace -o plik.txt ls
+- -p pozwala na śledzenie procesu, który jest już uruchomiony, za pomocą PID. strace -p 52
+- -t pozwala na wyświetlanie godziny przy każdej nowej linii wyświetlanej przez strace
+- -r wyświetla czas wykonania każdej z operacji
