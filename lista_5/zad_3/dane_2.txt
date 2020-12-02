@@ -1,0 +1,1 @@
+To jest tekst do odczytu przez program czesc 2
