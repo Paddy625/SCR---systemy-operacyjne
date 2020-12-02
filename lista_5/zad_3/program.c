@@ -6,6 +6,8 @@
 
 #define BUF_SIZE 1
 
+//odczyt z potoku "tail -c +1 pipe"
+
 int main(int argc, char ** argv) {
 
     int des_plik, des_potoku, n;			
