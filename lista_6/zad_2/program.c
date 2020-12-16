@@ -29,7 +29,7 @@ int main()
       do{
 	printf("Podaj nazwe pliku graficznego: ");
 	scanf("%s",file_name);
-      }while((fd_file=open(file_name,O_RDONLY))<0); //otwarcie pliku tekstowego
+      }while((fd_file=open(file_name,O_RDONLY))<0); //otwarcie pliku graficznego
       
       stat(file_name,&file_stat); //okreslenie dlugosci pliku
       file_size=file_stat.st_size;
