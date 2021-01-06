@@ -1,0 +1,2 @@
+Kolejność wyświetlania komunikatów na standardowym wyjściu nie jest za każdym
+razem taka sama.
