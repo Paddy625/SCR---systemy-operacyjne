@@ -1,6 +1,0 @@
-Program bug2.c po skompilowaniu i uruchomieniu powoduje błąd naruszenia pamięci. 
-Dzieje się tak ponieważ wcześniej nie został przypisany żaden rozmiar stosu przypisanego do danego
-procesu. W efekcie proces chcę uzyskać dosęp do danych w pamięci, do której nie ma dostępu(podczas
-powoływania tablicy) i powoduje błąd. Program bug2fix.c zawiera poprawki dzięki którym program 
-działa poprawnie.Funkcja pthread_attr_init() przypisuje strukturę danych do wątku z domyślnymi
-wartościami(2MB dla stosu), które dla programu są widocznie za małe i zapisywanie danych do tablicy powoduje próbę zapisu danych do pamięci do której nie ma dostępu.
