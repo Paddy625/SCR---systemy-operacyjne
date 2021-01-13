@@ -1,0 +1,6 @@
+W poleceniu jest zawarte zadanie aby zmodyfikować program tak żeby każdy zwracał inną wartość.
+Nie wymaga to jednak modyfikacji programu ponieważ każdy wątek zwraca swój unikalny numer ID.
+Różnica między programami polega na tym, że program detached.c nie odwołuje się do utworzonych wątków
+funkcją pthread_join() i nie pobiera od wątków statusów z którymi zostały zakończone.
+pthread_join() czeka na zakończenie wątku lub zwraca wartość od razu gdy wątek już się zakończył.
+Jeżeli wartość zwracana przez wątek jest różna od NULL to funkcja kopiuje wartość zwróconą przez wątek.
